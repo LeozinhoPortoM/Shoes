@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="container">
+            <img src="img/shoes-logo-2 1.png" alt="">
+            <ul>
+                <li><a href="">Todos os produtos</a></li>
+                <li><a href="">Coleções</a></li>
+                <li><a href="">Outlet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="aviso">
+        <h2>Mês de setembro - frete grátis para todo o Brasil!</h2>
+    </div>
+
+    <main id="principal">
+
+        <section class="caixa1">
+            <h1>Faça parte do nosso time</h1>
+
+            <form class="formulario" action="/registro" method="POST">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+
+                <div>
+                    <label for="nome">Departamento:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <div class="horizontal">
+                    <label for="disponibilidade">Disponibilidade: </label>
+
+                    <div class="marcadores">
+
+                        <div>
+                            <label for="integral">Integral (8h)</label>
+                            <input type="checkbox" name="disponibilidade" id="integral" value="Meio perído (4h)">
+                        </div>
+
+
+                        <div>
+                            <label for="meioperiodo">Meio período (4h)</label>
+                            <input type="checkbox" name="disponibilidade" id="meioperiodo" value="Meio Periodo">
+                        </div>
+
+                        <div>
+                            <label for="frelance">Freslancer</label>
+                            <input type="checkbox" name="disponibilidade" id="frelance" value="Freslancer">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="horizontal">
+                    <label for="contatoComVc">Qal a sua melhor forma para entrarmos em contato com você?</label> <br>
+
+
+                    <div class="marcadores">
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="radio" name="contatoComVc" id="email" value="E-mail">
+                        </div>
+
+                        <div>
+                            <label for="ligacao">Ligação</label>
+                            <input type="radio" name="contatoComVc" id="ligacao" value="Ligação">
+                        </div>
+
+                        <div>
+                            <label for="whats">Whats App</label>
+                            <input type="radio" name="contatoComVc" id="whats" value="WhatsApp">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div>
+                    <label for="msg">Mensagem</label>
+                    <br>
+                    <textarea name="msg" id="msg" cols="75" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <label for="curriculo">Currículo</label>
+                    <input type="file" name="curriculo" accept=".pdf">
+                </div>
+
+                <button type="submit">Enviar</button>
+
+
+            </form>
+
+        </section>
+
+        <section class="caixa2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi accusamus eveniet harum nihil,
+                cumque quisquam saepe reprehenderit dolorum tempore. Vel laudantium odio error optio quo cum dolore,
+                placeat amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi accusamus eveniet harum nihil,
+                cumque quisquam saepe reprehenderit dolorum tempore. Vel laudantium odio error optio quo cum dolore,
+                placeat amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi accusamus eveniet harum nihil,
+                cumque quisquam saepe reprehenderit dolorum tempore. Vel laudantium odio error optio quo cum dolore,
+                placeat amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi accusamus eveniet
+                harum nihil,
+                cumque quisquam saepe reprehenderit dolorum tempore. Vel laudantium odio error optio quo cum dolore,
+                placeat amet.</p>
+        </section>
+
+    </main>
+
+    <footer id="containerFooter">
+
+            <div class="logofooter">
+                <img src="img/shoes-logo-white-3 1.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates maxime, rem animi quos obcaecati architecto explicabo eveniet dolorum.</p>
+            </div>
+
+            <div class="categoria">
+                <h3>Categorias</h3>    
+                <a href="">Sandálias</a>
+                <a href="">Botas</a>
+                <a href="">Tênis</a>
+                <a href="">Oxford</a>
+                <a href="">Coturnos</a>
+            </div>
+            
+            <div class="institucional">
+                <h3>Institucional</h3>
+                <a href="">Sobre nós</a>
+                <a href="">Perguntas frequentes</a>
+                <a href="">Politica de privacidade</a>
+                <a href="">reastreamento de pedidos</a>
+                <a href="">Fale conosco</a>
+            </div>
+
+        
+    </footer>
+
+</body>
+
+</html>
